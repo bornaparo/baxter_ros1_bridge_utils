@@ -93,7 +93,7 @@ def main():
     rospy.init_node("baxter_move_to_zero_node")
     rospy.loginfo("Created baxter_move_to_zero_node")
     baxter_move_to_zero = MoveToZero()
-    baxter_move_to_zero.run()
+    # baxter_move_to_zero.run()
     
     
     
